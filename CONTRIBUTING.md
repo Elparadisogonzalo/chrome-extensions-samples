@@ -34,12 +34,12 @@ information on using pull requests.
 
 ### Setting up your Environment
 
-If you want to contribute to this repository, you need to first [create your own fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+If you want to contribute to this repository, you need to first [create your own fork](https://github.com/Elparadisogonzalo/chrome-extensions-samples.git).
 After forking chrome-extensions-samples to your own Github account, run the following steps to get started:
 
 ```sh
 # clone your fork to your local machine
-git clone https://github.com/your-fork/chrome-extensions-samples.git
+git clone https://github.com/Elparadisogonzalo/chrome-extensions-samples.git
 
 cd chrome-extensions-samples
 
