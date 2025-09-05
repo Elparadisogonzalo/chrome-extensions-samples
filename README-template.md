@@ -1,27 +1,52 @@
-_To create a README for your sample_
+# elparadisogonzalo  
 
-1. _Copy this file to your sample folder._
-1. _Enter the requested information below._
-1. _Delete these instructions._
+Welcome to **elparadisogonzalo**, a decentralized project hosted on **Unstoppable Domains** and powered by **IPFS**. This project aims to provide a seamless, censorship-resistant experience using blockchain-based domain technology.  
 
-_For API samples use the name of the API. For example, a sample about the `chrome.declarativeNetRequest` would simply be called "chrome.declarativeNetRequest". (Do not use special formatting in headings.) For functional samples, the title should be what the sample demonstrates_
+## 🚀 Features  
 
-# Title
+- **Decentralized Hosting** – Content is stored on **IPFS**, ensuring security and immutability.  
+- **Blockchain Domain** – Hosted on **Unstoppable Domains**, making it resistant to takedowns.  
+- **Custom Email Configuration** – Supports decentralized email via **Unstoppable Domains**.  
+- **Seamless API Integration** – Uses **Infura** for interacting with the IPFS network.  
 
-_Describe what the sample demonstrates. If this is an API sample, link to the API._
+## 🔧 Setup & Deployment  
 
-This sample demonstrates ...
+### Prerequisites  
+Ensure you have the following installed:  
+- [Node.js](https://nodejs.org/) & npm  
+- [IPFS CLI](https://docs.ipfs.tech/install/)  
+- [Infura Account](https://infura.io/)  
+- Linux shell (for deployment & management)  
 
-## Overview
+### Clone the Repository  
+```bash
+git clone https://github.com/koagonzalo11/elparadisogonzalo.git
+cd elparadisogonzalo
+```
 
-_Describe how the sample demonstrates the API or use case and briefly describe how to use it._
+### Upload Content to IPFS  
+Use IPFS to add your content:  
+```bash
+ipfs add -r ./public
+```
+Copy the generated **CID** and update your Unstoppable Domains configuration.  
 
-## Implementation Notes
+### Configure Unstoppable Domains  
+1. Log in to [Unstoppable Domains](https://unstoppabledomains.com/).  
+2. Navigate to **Manage Domain** → **Website**.  
+3. Add your IPFS CID under the website hosting settings.  
 
-_Add any information that doesn't fit elsewhere in the README._
+### API Documentation  
+The API documentation is available on **GitHub** and **Infura**. See [API Docs](https://github.com/elparadisogonzalo/elparadisogonzalo.github.io/wiki) for more details.  
 
-## Running this extension
+## 🛠 Troubleshooting  
+- **Syncing issues?** Run `ipfs daemon` before adding new content.  
+- **Domain not resolving?** Wait for blockchain propagation or check your domain settings.  
 
-1. Clone this repository.
-2. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
-3. _Add the rest of the instructions here_
+## 🤝 Contributing  
+Feel free to open issues and pull requests to improve the project!  
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
+
+# locales
