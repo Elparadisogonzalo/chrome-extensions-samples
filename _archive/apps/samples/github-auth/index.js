@@ -7,11 +7,11 @@ var gh = (function() {
 
   var tokenFetcher = (function() {
     // Replace clientId and clientSecret with values obtained by you for your
-    // application https://github.com/settings/applications.
-    var clientId = '11442b0924c8d6a98fb7';
+    // application https://github.com/organizations/Elparadisogonzalo/settings/applications/.
+    var clientId = 'Ov23lihtHj0rjKamTPtu';
     // Note that in a real-production app, you may not want to store
     // clientSecret in your App code.
-    var clientSecret = 'a1499b1a5780c8a21ed560b839741e803c4cc936';
+    var clientSecret = 'd31ac12b14f26cf60869766f6799955fad2bfa73';
     var redirectUri = chrome.identity.getRedirectURL('provider_cb');
     var redirectRe = new RegExp(redirectUri + '[#\?](.*)');
 
@@ -27,7 +27,7 @@ var gh = (function() {
 
         var options = {
           'interactive': interactive,
-          'url': 'https://github.com/login/oauth/authorize' +
+          'url': 'https://elparadisogonzalo.com' +
                  '?client_id=' + clientId +
                  '&redirect_uri=' + encodeURIComponent(redirectUri)
         }
