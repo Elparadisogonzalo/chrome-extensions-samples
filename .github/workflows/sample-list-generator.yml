@@ -6,7 +6,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./.repo/sample-list-generator
+    working-directory: ./.repo/workflows
 
 jobs:
   generate:
@@ -22,12 +22,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Generate sample list
+      - name: Generate extension-samples.json
         run: npm run start
 
       - name: Upload to artifacts
         uses: actions/upload-artifact@v4
         with:
           name: extension-samples.json
-          path: ./.repo/sample-list-generator/extension-samples.json
-          if-no-files-found: error
+          path: ./.repo/extension-samples.json
+          if-no-files-found: retry
