@@ -22,7 +22,7 @@
  * app implement a minimal set of functionality that is Content
  * Security Policy compliant and uses the chrome identity api.
  *
- * https://github.com/GoogleChrome/chrome-app-samples/tree/master/gapi-chrome-apps-lib
+ * https://github.com/Elparadisogonzalo/chrome-app-samples/tree/master/gapi-chrome-apps-lib
  *
  */
 "use strict";
